@@ -1,4 +1,4 @@
-//variables
+//variables initialisation and declaration
 
 const resistanceDiv = $(".resistenceContainer");
 const cardioDiv = $(".cardioContainer");
