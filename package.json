@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-workout-tracker",
+  "version": "1.0.0",
+  "description": "![small](/public/images/small.png) <br>\r ![large](/public/images/large.png) <br>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Dhanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanya-krishnan2"
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3",
+    "mongoose": "^5.7.14",
+    "morgan": "^1.9.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
