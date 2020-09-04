@@ -1,7 +1,4 @@
 
-![small](/public/images/small.png) <br>
-![large](/public/images/large.png) <br>
-
 # FITNESS-TRACKER
 This is a Workout Track mobile first app built with mongoDB. express.js, JavaScript, HTML5 and CSS3. 
 It's a simple CRUD application where you can store your routines after completing them. The app shows your most recent activity on the top.s
@@ -22,10 +19,10 @@ mongoDB, mongoose, express.js, Bootstrap, Moment.js
 Add some type of data vizualization with user's daily progress;
 Add updates on previous routines
 # Screenshots of this app 
-![](./images/2020-09-04.png)
-![](./images/2020-09-04(1).png)
-![](./images/2020-09-04(2).png)
-![](./images/2020-09-04(3).png)
+
+![](/public/images/2020-09-04(1).png) <br>
+![](/public/images/2020-09-04(3).png) <br>
+![](/public/images/2020-09-04(2).png) <br>
 
 # Link to Application
 
