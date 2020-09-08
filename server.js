@@ -15,7 +15,22 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(express.static("public"))
 // this port used connect mongoose and then heroku as wekk
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wtracker", { useNewUrlParser: true });
+//mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://Dhanya:Ahalyamol14*@offline.2to7l.mongodb.net/budget?retryWrites=true&w=majority", { useNewUrlParser: true, useFindAndModify: false });
+//mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://Dhanya:Ahalyamol14*@cluster0.awxdi.mongodb.net/wtracker?retryWrites=true&w=majority
+
+//", { useNewUrlParser: true, useFindAndModify: false });
+
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://mongodb+srv://Dhanya:Ahalyamol14*@cluster0.awxdi.mongodb.net/wtracker?retryWrites=true&w=majority",
+
+ { useNewUrlParser: true, useFindAndModify: false});
+
+app.use(require("./routes/api.js"));
+
+app.listen(PORT, () => {
+  console.log(`App running on port ${PORT}!`);
+});
+
 
 app.listen(PORT, () => {
     console.log(`------- App running on port http://localhost:${PORT}`);
